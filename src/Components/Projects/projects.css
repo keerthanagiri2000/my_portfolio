@@ -10,6 +10,9 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
 }
 
 .projects_item:hover {
@@ -18,8 +21,13 @@
 }
 
 .projects_item_image{
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     overflow: hidden;
+}
+
+.projects_item_image > img{
+   height: 12rem;
+   object-fit: cover;
 }
 
 .projects_item h3 {
@@ -31,6 +39,29 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.projects_item_links>a:hover {
+    border:none;
+    color: white;
+}
+.made-with {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+
+}
+.made>span {
+ background-color: teal;
+ color: white;
+ padding: 0.5rem;
+ border-radius: 20px;
+ font-size: 0.9rem;
+}
+.project-item-line{
+    border-top: 1px solid white;
+}
+
+
 
 /* media query (medium device) */
 @media screen and (max-width: 1024px){

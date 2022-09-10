@@ -17,11 +17,16 @@ const About = () => {
 
         <div className='about_content'>
           <p>
-            A passionate  Full stack web developer with background knowledge of MERN stacks.Always seeking challenging position 
-            in and organization  where my skills find ample of opportunities for upgradation and growth of the company.
-            I'm an enthusiastic individual with zeal to learn explore and grow.
+          Full stack web with background knowledge of MERN stacks , along with a knack of building applications with utmost efficiency. Strong professional with a BE. I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries.
           </p>
-
+          <h3>Here are a Few Highlights:</h3>
+          <ul>
+            <li>Full Stack web and mobile development</li>
+            <li>Interactive Front End as per the design</li>
+            <li>React</li>
+            <li>Building REST API</li>
+            <li>Managing database</li>
+          </ul>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
