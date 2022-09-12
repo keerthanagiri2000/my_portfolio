@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className='projects_item_image'>
                   <img src={project.image} alt={project.title} />
                 </div>
-                <h4>{project.title}</h4>
+                <h2>{project.title}</h2>
 
                 <h4>Made With:</h4>
                 <div className='made-with'>
