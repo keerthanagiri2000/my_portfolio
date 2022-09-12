@@ -19,8 +19,8 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-         <a href='https://github.com/keerthanagiri2000' target="_blank"><FaGithub /></a>
-         <a href='mailto:keerthanagiri2000@gmail.com'><HiMail /></a>
+         <a href='https://github.com/keerthanagiri2000' target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+         <a href='mailto:keerthanagiri2000@gmail.com' rel="noopener noreferrer"><HiMail /></a>
       </div>
 
       <div className="footer_content">
